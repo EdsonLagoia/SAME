@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NotoSans', sans-serif;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato.ttf') format('truetype');
+}
+
+main {
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/background.jpg');
+    background-size: cover;
+}
+
+.title-menu {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18pt;
+    font-weight: 500;
+    padding-right: 40px;
+}
+
+.title-menu img {
+    width: 35px;
+}
+
+#logout {
+    background: none;
+    color: #ffffff;
+    border: none;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.title-menu:hover, #logout:hover {
+    color: #c7c7c7;
+}
+
+.system {
+    padding: 20px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 14pt;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #0f0fcc;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-logout {
+    width: 100%;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 14pt;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #b73333;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 40px #b733333b;
+}
+
+.content {
+    padding: 40px;
+}
